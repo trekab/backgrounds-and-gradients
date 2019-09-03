@@ -1,0 +1,87 @@
+*{
+	box-sizing: border-box;
+	border: 0.1px solid white;
+}
+
+body{
+	margin-top: 0;
+}
+
+.main-section{
+    width: 1440px;
+	height: 605px;
+	margin-left: auto;
+	margin-right: auto;
+    background-image: url(../images/your_verse_hero.jpg);
+    background-position-x: 50%;
+    background-position-y: 100%;
+    text-align: center;
+}
+
+.main-section-navigation{
+	display: table;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 85px;
+}
+
+.main-section-navigation ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.nav-row{
+	display: table-row;
+}
+
+.nav-cell{
+	display: table-cell;
+	width: 11%;
+	margin: 0;
+}
+
+.bottom-image-grid{
+	display: table;
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom-image-grid-row{
+	display: table-row;
+}
+
+.bottom-image-grid-cell{
+	display: table-cell;
+	list-style: none;
+	width: 25%;
+}
+
+.bottom-image-grid-cell img{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.footer-section{
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-p, .footer-nav, .copyright{
+	display: inline-block;
+	font-size: 12px;
+}
+
+.footer-nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-content{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
