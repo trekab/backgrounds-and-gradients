@@ -107,6 +107,53 @@ nav input:focus {
     width: 150px;
 }
 
+.head-section-text {
+	position: relative;
+	top: 200px;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	color: white;
+	line-height: 48px;
+}
+
+.title {
+    margin-bottom: -9px;
+}
+
+.subheading {
+    margin-bottom: 27px;
+}
+
+.cta {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    height: 31px;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.cta a:hover, .cta a:active {
+    margin-top: -32px;
+}
+
+.cta a {
+    display: inline-block;
+    margin: 0 18px 25px;
+    height: 29px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 .main-section{
     width: 1440px;
 	height: 605px;
